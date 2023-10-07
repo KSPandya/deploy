@@ -21,6 +21,7 @@ protobuf
 pyOpenSSL>=18.0.0
 simplejson==3.19.2
 streamlit
+st_aggrid
 tweepy==4.14.0
 typing_extensions==3.7.4.3
 urllib3_secure_extra==0.1.0
