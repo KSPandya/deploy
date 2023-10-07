@@ -1,0 +1,7 @@
+streamlit
+tempfile
+pathlib
+tweepy
+st_aggrid
+datetime
+googletrans
