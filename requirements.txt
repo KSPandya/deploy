@@ -19,7 +19,7 @@ numpy>=1.15.1
 ordereddict==1.1
 protobuf==3.17.3
 pyOpenSSL>=18.0.0
-pywin32==227
+pywin32>=210
 simplejson==3.19.2
 streamlit==1.27.2
 tweepy==4.14.0
