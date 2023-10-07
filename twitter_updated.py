@@ -7,7 +7,7 @@ from datetime import date
 today = date.today()
 from googletrans import Translator
 from googletrans.utils import RetrySession
-translator=Translator()
+translator=Translator(session=RetrySession())
 #trans=Translator()
 user_agent = 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.93 Safari/537.36'
 st.set_page_config(layout='wide')
