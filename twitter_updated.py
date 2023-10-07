@@ -2,7 +2,7 @@ import streamlit as st
 import tempfile
 from pathlib import Path
 import tweepy as tw
-from st_aggrid import AgGrid
+
 from datetime import date
 today = date.today()
 from googletrans import Translator
