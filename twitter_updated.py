@@ -177,7 +177,7 @@ if choice == 'Post tweet':
                             
                             p = client.create_tweet(text=part,in_reply_to_tweet_id = result.data['id'])
 
-                        st.success('Tweeted') 
+                st.success('Tweeted') 
                           
             else:
                 result = client.create_tweet(text= final)
